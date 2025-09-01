@@ -47,7 +47,7 @@ const Hero = () => {
             with React, Next and Node.js.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Show my Work"
               icon={<FaLocationArrow />}
