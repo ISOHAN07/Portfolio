@@ -46,13 +46,16 @@ export const socialMedia = [
   {
     id: "1",
     img: "/git.svg",
+    link: "https://github.com/ISOHAN07"
   },
   {
     id: "2",
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/sohan-ghosh-152a862b5/"
   },
   {
     id: "3",
     img: "/wha.svg",
+    link: "https://wa.me/917340202804?text=Let%27s%20connect..."
   },
 ];
