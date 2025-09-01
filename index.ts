@@ -11,7 +11,7 @@ export const projects = [
     des: "Scalable event registration system built with Next.js and Node.js, featuring customizable forms, push notifications, and optimized flows for organizers.",
     img: "/clubify.png",
     iconLists: ["/next.svg", "/tail.svg", "/node.webp", "ts.svg"],
-    link: "/club-event-manager.vercel.app",
+    link: "https://club-event-manager.vercel.app/",
   },
 
   {
@@ -20,7 +20,7 @@ export const projects = [
     des: "The Innerve 9 website is a modern, responsive platform providing event details, registrations, schedules, and seamless navigation for participants.",
     img: "/innerve.png",
     iconLists: ["/re.svg", "/gsap.svg", "/ts.svg"],
-    link: "/innerve.tech",
+    link: "https://www.innerve.tech/",
   },
 
   {
@@ -29,7 +29,7 @@ export const projects = [
     des: "Anubhav is a digital platform showcasing alumni journeys, career paths, and experiences to guide and inspire students in their professional growth.",
     img: "/anubhav.png",
     iconLists: ["/re.svg", "/ts.svg"],
-    link: "/anubhav.aitoss.club",
+    link: "https://anubhav.aitoss.club/",
   },
 
   {
@@ -38,6 +38,21 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/apple.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/gsap.svg"],
-    link: "/apple-website-inky-eta.vercel.app",
+    link: "https://apple-website-inky-eta.vercel.app/",
+  },
+];
+
+export const socialMedia = [
+  {
+    id: "1",
+    img: "/git.svg",
+  },
+  {
+    id: "2",
+    img: "/link.svg",
+  },
+  {
+    id: "3",
+    img: "/wha.svg",
   },
 ];
