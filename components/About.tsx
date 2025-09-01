@@ -39,8 +39,8 @@ const About = () => {
         {/* Radial gradient for the container to give a faded look */}
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-[#000319]"></div>
       </div>
-      <h4 className="text-center mb-2 text-lg relative">Introduction</h4>
-      <h2 className="text-center text-5xl relative">About Me</h2>
+      <h4 className="text-center mb-2 text-lg relative text-[#CBACF9] tracking-widest">Introduction</h4>
+      <h1 className="text-center text-5xl relative heading">About Me</h1>
 
       <div className="flex w-full flex-col lg:flex-row items-center gap-20 my-20 relative">
         <div className="w-64 sm:w-80 rounded-3xl max-w-none">
