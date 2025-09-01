@@ -1,6 +1,6 @@
 import { projects } from "@/index";
 import { PinContainer } from "./ui/3d-pin";
-import { div } from "motion/react-client";
+import Image from "next/image";
 import { FaLocationArrow } from "react-icons/fa";
 
 const RecentProjects = () => {
@@ -18,10 +18,25 @@ const RecentProjects = () => {
           >
             <PinContainer title="Visit" href={link}>
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
-                <div className="relative w-full h-full overflow-hidden lg:rounded-3xl" style={{ backgroundColor: "#13162D" }}>
-                  <img src="/bg.png" alt="bg-img" />
+                <div
+                  className="relative w-full h-full overflow-hidden lg:rounded-3xl"
+                  style={{ backgroundColor: "#13162D" }}
+                >
+                  <Image
+                    src="/bg.png"
+                    alt="bg-img"
+                    fill
+                    style={{ objectFit: "cover" }}
+                    className="w-full h-full"
+                  />
                 </div>
-                <img src={img} alt="cover" className="z-10 absolute bottom-0" />
+                <Image
+                  src={img}
+                  alt="cover"
+                  fill
+                  style={{ objectFit: "cover" }}
+                  className="z-10 absolute bottom-0 w-full h-full"
+                />
               </div>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {title}
@@ -38,14 +53,22 @@ const RecentProjects = () => {
                       className="border border-white/[0.2] rounded-full lg:w-10 lg:h-10 bg-[#000319] w-8 h-8 flex items-center justify-center"
                       style={{ transform: `translateX(-${5 * index * 2}px)` }}
                     >
-                      <img src={icon} alt={icon} className="p-2" />
+                      <Image
+                        src={icon}
+                        alt={icon}
+                        className="p-2"
+                        width={760}
+                        height={800}
+                      />
                     </div>
                   ))}
                 </div>
 
                 <div className="flex justify-center items-center">
-                    <p className="flex lg:text-xl md:text-xs text-sm text-[#CBACF9]">Check Live Site</p>
-                    <FaLocationArrow className="ms-3 "/>
+                  <p className="flex lg:text-xl md:text-xs text-sm text-[#CBACF9]">
+                    Check Live Site
+                  </p>
+                  <FaLocationArrow className="ms-3 " />
                 </div>
               </div>
             </PinContainer>
