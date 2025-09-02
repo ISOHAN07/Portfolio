@@ -17,7 +17,7 @@ export const projects = [
   {
     id: 2,
     title: "Innerve 9",
-    des: "The Innerve 9 website is a modern, responsive platform providing event details, registrations, schedules, and seamless navigation for participants.",
+    des: "Collaborated with team to build responsive platform providing event details, registrations, schedules, and seamless navigation for participants.",
     img: "/innerve.png",
     iconLists: ["/re.svg", "/gsap.svg", "/ts.svg"],
     link: "https://www.innerve.tech/",
@@ -26,7 +26,7 @@ export const projects = [
   {
     id: 3,
     title: "Anubhav",
-    des: "Anubhav is a digital platform showcasing alumni journeys, career paths, and experiences to guide and inspire students in their professional growth.",
+    des: "Led the backend development, showcasing alumni journeys, career paths, and experiences to guide and inspire students in their professional growth.",
     img: "/anubhav.png",
     iconLists: ["/re.svg", "/ts.svg"],
     link: "https://anubhav.aitoss.club/",
